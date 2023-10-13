@@ -1,31 +1,9 @@
 import { useState } from 'react';
 import { FiSearch } from 'react-icons/fi';
 import Project from './project';
+import projectsData from 'app/data/projects_data';
 
-const projectsData = [
-    {
-        key: 1,
-        title: 'The Green Book Project',
-        category: 'mobile app',
-        img: '/images/green_book_project_newsfeed.png',
-    },
-    {
-        key: 2,
-        title: 'The Neon Galactica (Stable Diffusion)',
-        category: 'Diffusion Pipeline',
-        img: '/images/neon_galactica.png',
-    },
-    {
-        key: 3,
-        title: 'Campaign Success Service (Change.org)',
-        category: 'web application',
-        img: '/images/campaign_success_example.png'
-    },
-];
-
-function ProjectsGrid() {
-	const [searchProject, setSearchProject] = useState();
-
+function ProjectsGrid(): JSX.Element {
 	return (
 		<section className="py-5 sm:py-10 mt-5 sm:mt-10">
 			<div className="text-center">
