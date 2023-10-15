@@ -7,7 +7,21 @@ const projectsData: Project[] = [
         category: 'mobile app',
         img: '/images/green_book_project_newsfeed.png',
         technologies: ['React Native', 'React', 'GraphQL', 'Node.js', 'Express', 'PostgreSQL', 'Webpack'],
-        description: '',
+        description: 'The Green Book Project was a mobile app that helped people from marginalized groups find inclusive businesses and avoid discrimination.',
+        images: [
+            {
+                src: '/images/green_book/review.png',
+                alt: 'An example review on The Green Book Project',
+            },
+            {
+                src: '/images/green_book/discovery.png',
+                alt: 'The Discovery Screen on The Green Book Project',
+            },
+            {
+                src: '/images/green_book/newsfeed.png',
+                alt: "The Green Book Project's Community Newsfeed",
+            },
+        ],
     },
     {
         id: 2,

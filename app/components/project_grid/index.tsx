@@ -1,14 +1,14 @@
 import { useState } from 'react';
 import { FiSearch } from 'react-icons/fi';
 import Project from './project';
-import projectsData from 'app/data/projects_data';
+import projectsData from '@/app/data/project_data';
 
 function ProjectsGrid(): JSX.Element {
 	return (
 		<section className="py-5 sm:py-10 mt-5 sm:mt-10">
 			<div className="text-center">
 				<p className="font-general-medium text-2xl sm:text-4xl mb-1 text-ternary-dark dark:text-ternary-light">
-					Projects portfolio
+					Checkout my portfolio:
 				</p>
 			</div>
 
