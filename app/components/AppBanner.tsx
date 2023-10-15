@@ -66,7 +66,8 @@ function AppBanner() {
 				>
 					<img
 						src={'/images/christian.png'}
-						alt="Developer"
+						alt="Christian Lowe in Eado"
+						className="sm:ml-2 m:ml-1 rounded-md overflow-hidden"
 					/>
 				</motion.div>
 			</div>
@@ -74,7 +75,7 @@ function AppBanner() {
 				initial={{ opacity: 0, y: -180 }}
 				animate={{ opacity: 1, y: 0 }}
 				transition={{ ease: 'easeInOut', duration: 0.9, delay: 0.2 }}
-				className='mt-10 pl-12 pr-12'
+				className='mt-12 px-12'
 			>
 				<p className='font-general-semibold text-2l lg:text-2xl xl:text-3xl text-center text-ternary-dark dark:text-primary-light'>
 					I'm passionate about building tech products that revolutionize the way humans interact with the digital world in both our professional and personal lives.

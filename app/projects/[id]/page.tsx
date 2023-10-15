@@ -1,6 +1,7 @@
 import { usePathname } from "next/navigation";
 import Image from 'next/image';
 import { ProjectImage } from 'app/types';
+import GreenBook from "app/components/projects/GreenBook";
 
 
 type PageProps = {
@@ -69,11 +70,14 @@ export default async function ProjectSingle({ params: { id } }: PageProps) {
 
 				{/*  Single project right section details */}
 				<div className="w-full sm:w-2/3 text-left mt-10 sm:mt-0">
+					<p className="text-primary-dark dark:text-primary-light text-2xl font-bold mb-7">
+						Summary
+					</p>
 					<p
 						key={project.id}
 						className="font-general-regular mb-5 text-lg text-ternary-dark dark:text-ternary-light"
 					>
-						{project.description}
+						<GreenBook />
 					</p>
 				</div>
 			</div>

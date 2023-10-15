@@ -5,7 +5,7 @@ import { Project } from 'app/types';
 
 const imageStyle = { maxWidth: '100%', height: 'auto' };
 
-const ProjectSingle = ({ id, img, title, category }: Project): JSX.Element => {
+const GridTile = ({ id, img, title, category }: Project): JSX.Element => {
 	return (
 		<motion.div
 			initial={{ opacity: 0 }}
@@ -47,4 +47,4 @@ const ProjectSingle = ({ id, img, title, category }: Project): JSX.Element => {
 	);
 };
 
-export default ProjectSingle;
+export default GridTile;

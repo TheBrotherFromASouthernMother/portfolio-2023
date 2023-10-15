@@ -5,9 +5,9 @@ const projectsData: Project[] = [
         id: 1,
         title: 'The Green Book Project',
         category: 'mobile app',
-        img: '/images/green_book_project_newsfeed.png',
-        technologies: ['React Native', 'React', 'GraphQL', 'Node.js', 'Express', 'PostgreSQL', 'Webpack'],
-        description: 'The Green Book Project was a mobile app that helped people from marginalized groups find inclusive businesses and avoid discrimination.',
+        img: '/images/tgbp.png',
+        technologies: ['React Native', 'React', 'Apollo GraphQL', 'Node.js', 'Express', 'PostgreSQL', 'Webpack', 'Redis'],
+        description: ``,
         images: [
             {
                 src: '/images/green_book/review.png',
@@ -35,7 +35,7 @@ const projectsData: Project[] = [
         id: 3,
         title: 'Campaign Success Service (Change.org)',
         category: 'web application',
-        img: '/images/campaign_success_example.png',
+        img: '/images/campaign_success.png',
         technologies: ['React Native', 'React', 'GraphQL', 'Node.js', 'Express', 'PostgreSQL', 'Webpack'],
         description: '',
     },

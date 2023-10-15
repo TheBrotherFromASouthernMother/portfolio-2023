@@ -1,8 +1,7 @@
 'use client';
 import Image from 'next/image'
 import AppBanner from 'app/components/AppBanner'
-import AppFooter from 'app/components/AppFooter';
-import ProjectsGrid from 'app/components/project_grid';
+import ProjectsGrid from 'app/components/projects/Grid';
 
 
 export default function Home() {
@@ -10,7 +9,6 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <AppBanner />
       <ProjectsGrid />
-      <AppFooter />
     </main>
   )
 }
