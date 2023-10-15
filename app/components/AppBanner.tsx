@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import Image from 'next/image';
 import { FiArrowDownCircle } from 'react-icons/fi';
 
-function AppBanner() {
+const AppBanner = (): JSX.Element => {
 	return (
 		<motion.section
 			initial={{ opacity: 0 }}

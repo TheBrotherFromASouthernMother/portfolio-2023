@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { FiSun, FiMoon, FiX, FiMenu } from 'react-icons/fi';
 
-function AppHeader() {
+const AppHeader = (): JSX.Element => {
 	const [showMenu, setShowMenu] = useState(false);
 
 	function toggleMenu() {
