@@ -45,9 +45,8 @@ export default async function ProjectSingle({ params: { id } }: PageProps) {
 								className="rounded-xl cursor-pointer shadow-lg sm:shadow-none"
 								alt={img.alt}
 								key={index}
-								layout="responsive"
-								width={100}
-								height={90}
+								width={250}
+								height={250}
 							/>
 						</div>
 					);

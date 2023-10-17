@@ -9,7 +9,7 @@ const AppBanner = (): JSX.Element => {
 			animate={{ opacity: 1 }}
 			transition={{ ease: 'easeInOut', duration: 0.9, delay: 0.2 }}
 		>
-			<div className="flex flex-col sm:justify-between items-center sm:flex-row mt-5 md:mt-2">
+			<div className="flex flex-col sm:justify-between items-center sm:flex-row mt-5 md:mt-2 p-24">
 				<div className="w-full md:w-1/3 text-left">
 					<motion.h1
 						initial={{ opacity: 0 }}
@@ -33,7 +33,7 @@ const AppBanner = (): JSX.Element => {
 						}}
 						className="font-general-medium mt-4 text-lg md:text-xl lg:text-2xl xl:text-3xl text-center sm:text-left leading-normal text-gray-500 dark:text-gray-200"
 					>
-						I'm a Software Engineer & Hobbyist musician
+						Software Engineer & Hobbyist musician
 					</motion.p>
 					<motion.div
 						initial={{ opacity: 0 }}
@@ -71,16 +71,6 @@ const AppBanner = (): JSX.Element => {
 					/>
 				</motion.div>
 			</div>
-			<motion.div
-				initial={{ opacity: 0, y: -180 }}
-				animate={{ opacity: 1, y: 0 }}
-				transition={{ ease: 'easeInOut', duration: 0.9, delay: 0.2 }}
-				className='mt-12 px-12'
-			>
-				<p className='font-general-semibold text-2l lg:text-2xl xl:text-3xl text-center text-ternary-dark dark:text-primary-light'>
-					I'm passionate about building tech products that revolutionize the way humans interact with the digital world in both our professional and personal lives.
-				</p>
-			</motion.div>
 		</motion.section>
 	);
 }

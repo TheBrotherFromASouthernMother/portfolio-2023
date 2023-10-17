@@ -2,6 +2,9 @@ import Image from 'next/image';
 
 const GreenBook = (): JSX.Element => (
     <div>
+    <h2 className='font-general-semibold text-2xl lg:text-3xl xl:text-4xl'>
+        The Green Book Project
+    </h2>
     <p className="my-4">
         The Green Book Project was a mobile app that empowered people from marginalized groups to find inclusive businesses
         and avoid discrimination using our Yelp-style shared reviews platform.
