@@ -38,27 +38,6 @@ const GreenBook = (): JSX.Element => (
         The experienced galvanized me to build the Green Book Project to act as platform which could help people from marginalized groups avoid discriminatory services and instead support inclusive businesses.
         </p>
     </div>
-
-    <div 
-        className="w-full my-10 bg-center bg-cover"
-            style={{
-                backgroundImage: 'url(/images/green_book/tgbp_reviewers.webp)'
-            }}
-    >
-        <div className="w-full bg-opacity-70 bg-black px-12 pt-16 pb-12">
-            <h2 className='font-general-semibold text-xl lg:text-2xl xl:text-3xl px-4 pb-4'>
-                Summary
-            </h2>
-            <p className="my-6 text-xl px-4">
-            The Green Book Project (Nov 2020 - March 2023) was a crowdsourced-reviews platform (think Yelp) that helped people from marginalized groups 
-            find inclusive business and avoid common forms of discrimination such sexism, queer phobia, ableism and racism.
-            </p>
-            <p className="mb-6 mt-10 text-xl px-4">
-                Using The Green Book Project, users could rate and review businesses based on their inclusivity and customer service while also adding photos and videos to their reviews and sharing them to
-                external social media platforms like Facebook and Twitter.
-            </p>
-        </div>
-    </div>
 </div>
 );
 

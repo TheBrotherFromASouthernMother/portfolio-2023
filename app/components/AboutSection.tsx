@@ -9,7 +9,7 @@ const About = (): JSX.Element => (
 		    initial={{ opacity: 0 }}
 			animate={{ opacity: 1 }}
 			exit={{ opacity: 0 }}
-			className="w-full mx-auto bg-center bg-cover bg-top"
+			className="w-full mx-auto bg-center bg-cover bg-top py-30"
             style={{
                 backgroundImage: 'url(/images/houston_art_eado_me.webp)'
             }}
