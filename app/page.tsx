@@ -4,6 +4,7 @@ import AppBanner from 'app/components/AppBanner'
 import ProjectsGrid from 'app/components/projects/Grid';
 import AboutSection from 'app/components/AboutSection';
 import MyWork from 'app/components/MyWork';
+import GreenBookOverview from './components/GreenBookOverview';
 
 
 export default function Home() {
