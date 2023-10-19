@@ -1,7 +1,6 @@
 'use client';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
-import GreenBook from 'app/components/projects/GreenBook';
 
 const MyWork = (): JSX.Element => (
     <div>
@@ -11,7 +10,7 @@ const MyWork = (): JSX.Element => (
 			exit={{ opacity: 0 }}
 			className="w-full p-12"
 		>
-            <h2 className='font-general-semibold text-2xl lg:text-3xl xl:text-4xl px-4'>
+            <h2 id="work" className='font-general-semibold text-2xl lg:text-3xl xl:text-4xl px-4'>
                  My work
             </h2>
             <div 

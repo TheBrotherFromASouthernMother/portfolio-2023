@@ -53,6 +53,7 @@ const AppFooter = (): JSX.Element => {
 					<a
 						href="https://github.com/TheBrotherFromASouthernMother/portfolio-2023"
 						target="__blank"
+						rel='noopener noreferrer'
 						className="hover:underline hover:text-indigo-600 dark:hover:text-indigo-300 ml-1 duration-500"
 					>
 						&#x2661; Built with love using Typescript, Next.js, Tailwind CSS &#x2661;

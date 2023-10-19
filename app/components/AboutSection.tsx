@@ -16,7 +16,7 @@ const About = (): JSX.Element => (
 		>
             <div className="w-full bg-opacity-60 bg-black block flex-col sm:gap-10 mt-10 sm:mt-20 justify-center px-12 py-24">
                 <div>
-                <h2 id="#about" className='font-general-bold text-2xl lg:text-3xl xl:text-4xl'>
+                <h2 id="about" className='font-general-bold text-2xl lg:text-3xl xl:text-4xl'>
                     About Me
                 </h2>
                 </div>
