@@ -26,13 +26,53 @@ const MyWork = (): JSX.Element => (
                         className="rounded-lg"
                         alt="Profile Image"
                     />
+                    <p className='text-center text-sm'>
+                        Me with the late Archbishop Desmond Tutu at his Cape Town home in late
+                        March, 2016.
+                    </p>
                 </div>
                 <div className="font-general-regular w-full sm:w-3/4 text-left px-12 items-center">
                 <p
                     className="mb-4 text-ternary-dark dark:text-ternary-light text-lg md:text-xl"
                 >
-                    My work has taken me to a lot of places so you might have stumbled across me before, whether that was in a National Geographic Article on new tools for minority travelers,
-                    The Institute for Shipboard Education's "Shipmates" magazine, on a podcast for Human Resource professionals, and even web publications like CanvasRebel and People of Color in Tech.
+                    My work has taken me to a lot of places so you might have stumbled across me before, whether that was in a 
+                    <a 
+                    href="https://www.nationalgeographic.com/travel/article/new-digital-tools-are-helping-travelers-avoid-discrimination"
+                    target="__blank"
+					rel='noopener noreferrer'
+                    className="underline text-indigo-300 hover:text-indigo-100 ml-1 duration-500"
+                    >
+                        National Geographic Article
+                    </a>on new tools for minority travelers, The Institute for Shipboard Education's
+                    <a 
+                        href="/files/spring_2022_shipmates_magazine.pdf" 
+                        target="__blank" 
+                        className="underline text-indigo-300 hover:text-indigo-100 ml-1 duration-500"
+                    >
+                        "Shipmates" magazine
+                    </a>, on a podcast for 
+                    <a 
+                        href="https://podcasts.apple.com/us/podcast/yng-blk-hr/id1492151743?i=1000543385461"
+                        target="__blank"
+                        rel='noopener noreferrer'
+                        className="underline text-indigo-300 hover:text-indigo-100 ml-1 duration-500"
+                    >
+                        Human Resource professionals,
+                    </a> and even web publications like 
+                    <a 
+                        href="https://canvasrebel.com/meet-christian-lowe/" 
+                        target="__blank" 
+                        className="underline text-indigo-300 hover:text-indigo-100 ml-1 duration-500"
+                    >
+                        CanvasRebel
+                    </a> and 
+                    <a
+                        href="https://peopleofcolorintech.com/front/meet-the-software-engineer-pushed-by-his-own-scary-experiences-of-racism-while-travelling-that-created-an-app-to-combat-this-issue/" 
+                        target="__blank" 
+                        className="underline text-indigo-300 hover:text-indigo-100 ml-1 duration-500"
+                    >
+                        People of Color in Tech
+                    </a>.
                 </p>
 			    </div>
             </div>

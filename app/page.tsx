@@ -19,18 +19,21 @@ export default function Home() {
                 backgroundImage: 'url(/images/green_book/tgbp_reviewers.webp)'
             }}
     >
-        <div className="w-full bg-opacity-50 bg-black px-12 pt-20 pb-20">
+        <div className="w-full bg-opacity-50 bg-black px-8 md:px-20 pt-20 pb-20">
             <h2 className='font-general-semibold text-2xl lg:text-3xl xl:text-4xl px-4 pb-4'>
                  The Green Book Project
             </h2>
-            <p className="my-6 text-xl px-4">
-            The Green Book Project (Nov 2020 - March 2023) was a crowdsourced-reviews platform (think Yelp) that helped people from marginalized groups 
-            find inclusive business and avoid common forms of discrimination such sexism, queer phobia, ableism and racism.
+            <p className="my-6 text-xl">
+                The Green Book Project (Nov 2020 - March 2023) was a crowdsourced-reviews platform (think Yelp) that helped people from marginalized groups 
+                find inclusive business and avoid common forms of discrimination such sexism, racism, queer phobia, and ableism.
             </p>
-            <p className="mb-6 mt-10 text-xl px-4">
+            <p className="mb-6 mt-10 text-xl">
                 Using The Green Book Project, users could rate and review businesses based on their inclusivity and customer service while also adding photos and videos to their reviews and sharing them to
                 external social media platforms like Facebook and Twitter.
             </p>
+            <button className="w- md:w-1/4 bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
+                Learn More
+            </button>
         </div>
     </div>
     <div 
