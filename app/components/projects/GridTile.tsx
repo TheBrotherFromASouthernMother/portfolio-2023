@@ -28,9 +28,9 @@ const GridTile = ({ id, img, title, category }: Project): JSX.Element => {
 							src={img}
 							className="rounded-t-xl border-none"
 							alt="Single Project"
-							layout="responsive"
-							width={100}
-							height={90}
+							width={500}
+							height={500}
+							objectFit="fill"
 						/>
 					</div>
 					<div className="text-center px-4 py-6">

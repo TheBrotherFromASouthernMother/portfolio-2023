@@ -1,6 +1,3 @@
-import { usePathname } from "next/navigation";
-import Image from 'next/image';
-import { ProjectImage } from 'app/types';
 import GreenBook from "app/components/projects/GreenBook";
 
 
@@ -35,24 +32,6 @@ export default async function ProjectSingle({ params: { id } }: PageProps) {
 				</p>
 			</div>
 
-			{/* Gallery */}
-			<div className="grid grid-cols-1 sm:grid-cols-3 sm:gap-10 mt-12">
-				{project.images.map((img: ProjectImage, index: number) => {
-					return (
-						<div className="mb-10 sm:mb-0" key={index}>
-							<Image
-								src={img.src}
-								className="rounded-xl cursor-pointer shadow-lg sm:shadow-none"
-								alt={img.alt}
-								key={index}
-								width={250}
-								height={250}
-							/>
-						</div>
-					);
-				})}
-			</div>
-
 			{/* Info */}
 			<div className="block sm:flex gap-0 sm:gap-10 mt-14">
 				<div className="w-full sm:w-1/3 text-left">
@@ -76,7 +55,7 @@ export default async function ProjectSingle({ params: { id } }: PageProps) {
 						key={project.id}
 						className="font-general-regular mb-5 text-lg text-ternary-dark dark:text-ternary-light"
 					>
-						<GreenBook />
+						{project.description}
 					</p>
 				</div>
 			</div>
