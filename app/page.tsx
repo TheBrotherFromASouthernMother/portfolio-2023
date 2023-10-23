@@ -1,10 +1,9 @@
 'use client';
-import Image from 'next/image'
+import Link from 'next/link'
 import AppBanner from 'app/components/AppBanner'
 import ProjectsGrid from 'app/components/projects/Grid';
 import AboutSection from 'app/components/AboutSection';
 import MyWork from 'app/components/MyWork';
-import GreenBookOverview from './components/GreenBookOverview';
 
 
 export default function Home() {
@@ -31,9 +30,11 @@ export default function Home() {
                 Using The Green Book Project, users could rate and review businesses based on their inclusivity and customer service while also adding photos and videos to their reviews and sharing them to
                 external social media platforms like Facebook and Twitter.
             </p>
+            <Link href="/work/green_book">
             <button className="w- md:w-1/4 bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
                 Learn More
             </button>
+            </Link>
         </div>
     </div>
     <div 

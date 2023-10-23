@@ -42,7 +42,7 @@ const MyWork = (): JSX.Element => (
                     className="underline text-indigo-300 hover:text-indigo-100 ml-1 duration-500"
                     >
                         National Geographic Article
-                    </a>on new tools for minority travelers, The Institute for Shipboard Education's
+                    </a> on new tools for minority travelers, The Institute for Shipboard Education's
                     <a 
                         href="/files/spring_2022_shipmates_magazine.pdf" 
                         target="__blank" 
