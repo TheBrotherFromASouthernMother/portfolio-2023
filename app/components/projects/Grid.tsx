@@ -1,5 +1,3 @@
-import { useState } from 'react';
-import { FiSearch } from 'react-icons/fi';
 import GridTile from 'app/components/projects/GridTile';
 import projectsData from 'app/data/project_data';
 

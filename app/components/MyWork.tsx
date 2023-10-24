@@ -14,7 +14,7 @@ const MyWork = (): JSX.Element => (
                  My work
             </h2>
             <div 
-            className="w-full block flex flex-col sm:flex-row sm:gap-10 mt-10 items-center"
+            className="w-full block flex flex-col sm:flex-row sm:gap-10 mt-10"
             >
                 <div className="w-full sm:w-1/3 mb-7 sm:mb-0 ">
                     <Image
@@ -30,7 +30,7 @@ const MyWork = (): JSX.Element => (
                         March, 2016.
                     </p>
                 </div>
-                <div className="font-general-regular w-full sm:w-3/4 text-left px-12 items-center">
+                <div className="font-general-regular w-full sm:w-3/4 text-left px-8 pt-10">
                 <p
                     className="mb-4 text-ternary-dark dark:text-ternary-light text-lg md:text-xl"
                 >
@@ -72,6 +72,10 @@ const MyWork = (): JSX.Element => (
                     >
                         People of Color in Tech
                     </a>.
+                </p>
+                <p className='mt-10 text-ternary-dark dark:text-ternary-light text-lg md:text-xl'>
+                    Though software development is my bread and butter, I'm a huge people person and a life-long learner and I do my best work when I'm surrounded
+                    by thoughtful individuals working on something impactful.
                 </p>
 			    </div>
             </div>

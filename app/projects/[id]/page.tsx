@@ -1,5 +1,6 @@
-import GreenBook from "app/components/projects/GreenBook";
-
+import Link from 'next/link'
+import Image from 'next/image';
+import ProjectDescription from 'app/components/projects/description/ProjectDescription';
 
 type PageProps = {
 	params: {
@@ -35,6 +36,14 @@ export default async function ProjectSingle({ params: { id } }: PageProps) {
 			{/* Info */}
 			<div className="block sm:flex gap-0 sm:gap-10 mt-14">
 				<div className="w-full sm:w-1/3 text-left">
+					<div className="mb-12">
+						<p className="font-general-regular text-2xl font-semibold text-ternary-dark dark:text-ternary-light mb-2">
+							Description
+						</p>
+						<p className="font-general-regular text-primary-dark dark:text-ternary-light">
+							{project.description}
+						</p>
+					</div>
 					{/* Single project technologies */}
 					<div className="mb-7">
 						<p className="font-general-regular text-2xl font-semibold text-ternary-dark dark:text-ternary-light mb-2">
@@ -51,12 +60,7 @@ export default async function ProjectSingle({ params: { id } }: PageProps) {
 					<p className="text-primary-dark dark:text-primary-light text-2xl font-bold mb-7">
 						Summary
 					</p>
-					<p
-						key={project.id}
-						className="font-general-regular mb-5 text-lg text-ternary-dark dark:text-ternary-light"
-					>
-						{project.description}
-					</p>
+						<ProjectDescription project={project} />
 				</div>
 			</div>
 		</div>

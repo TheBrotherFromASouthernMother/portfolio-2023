@@ -9,7 +9,7 @@ const About = (): JSX.Element => (
 		    initial={{ opacity: 0 }}
 			animate={{ opacity: 1 }}
 			exit={{ opacity: 0 }}
-			className="w-full mx-auto bg-center bg-cover bg-top py-30"
+			className="w-full mx-auto bg-center bg-cover bg-top py-35"
             style={{
                 backgroundImage: 'url(/images/houston_art_eado_me.webp)'
             }}
@@ -21,12 +21,12 @@ const About = (): JSX.Element => (
                 </h2>
                 </div>
                 <div className="font-general-regular w-full sm:w-3/4 text-left my-8">
-                    <p className='font-general-semibold text-2l lg:text-2xl xl:text-3xl text-ternary-dark dark:text-primary-light'>
+                    <p className='font-general-semibold text-l lg:text-xl xl:text-2xl text-ternary-dark dark:text-primary-light'>
                         I'm a former technical startup founder, a social entrepreneur, and a Full Stack Software Engineer with over 5 years of experience building user-obsessed products.
                     </p>
 			    </div>
                 <div className="font-general-regular w-full sm:w-3/4 text-left mt-12 mb-4">
-                    <p className='font-general-semibold text-2l lg:text-2xl xl:text-3xl text-ternary-dark dark:text-primary-light'>
+                    <p className='font-general-semibold text-l lg:text-xl xl:text-2xl text-ternary-dark dark:text-primary-light'>
                         I'm passionate about building tech products that revolutionize the way humans interact with the digital world in both our professional and personal lives.
                     </p>
 			    </div>

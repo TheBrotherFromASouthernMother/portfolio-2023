@@ -3,13 +3,9 @@ export interface Project {
     title: string;
     category: string;
     img: string;
+    publish_date: string;
+    key: string;
     technologies: string[];
     link?: string;
     description: string;
-    images?: ProjectImage[],
-}
-
-export interface ProjectImage {
-    src: string,
-    alt: string,
 }
