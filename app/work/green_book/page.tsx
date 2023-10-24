@@ -56,14 +56,14 @@ const GreenBookPage = (): JSX.Element => (
                 </div>
                 <div className='w-full sm:w-3/4 sm:pl-4'>
                     <p className="my-6 text-m sm:text-xl px-4">
-                    Starting as a simply hobby project, The Green Book Project ultimately began during my visit to the 
-                    <a href='https://www.instagram.com/wearekranti/?hl=en' target="__blank" rel="noopener noreferrer" className="underline text-indigo-300 hover:text-indigo-100 ml-1 duration-500">Kranti House</a> in Mumbai, India in the early spring of 2016 as part Semester at Sea's IMPACT scholars program.
+                    Starting as a simple hobby project, The Green Book Project ultimately began during my visit to the 
+                    <a href='https://www.instagram.com/wearekranti/?hl=en' target="__blank" rel="noopener noreferrer" className="underline text-indigo-300 hover:text-indigo-100 ml-1 duration-500">Kranti House</a> in Mumbai, India in the early spring of 2016 as part of Semester at Sea's IMPACT scholars program.
                     </p>
                     <p className="mb-6 mt-10 text-m sm:text-xl px-4">
-                    After witnessing a shocking instance of caste-based discrimination targeted at the amazing young women of the Kranti House, I reflected on my own experiences with racial discrimnation in the Deep South and felt that someone should build an app for that.
+                    After witnessing a shocking instance of caste-based discrimination targeted at the amazing young women of the Kranti House, I reflected on my own experiences with racial discrimination in the Deep South and felt that someone should build an app for that.
                     </p>
                     <p className="mb-6 mt-10 text-m sm:text-xl px-4">
-                    The experienced galvanized me to build the Green Book Project to help people from marginalized groups avoid discriminatory services and instead support inclusive businesses.
+                    The experience galvanized me to build the Green Book Project to help people from marginalized groups avoid discriminatory services and instead support inclusive businesses.
                     </p>
                 </div>
             </div>
@@ -114,7 +114,7 @@ const GreenBookPage = (): JSX.Element => (
                     Conclusion
                 </h2>
                 <p className="my-6 text-m sm:text-xl px-4">
-                    Athough my amazing team and I were able to successfully meet our minimum crowdfunding goal, the economic conditions of the market in early 2023 caused us to we fall short of our total venture capital funding goal and we were forced to shutter The Green Book Project as a result.
+                    Although my amazing team and I were able to successfully meet our minimum crowdfunding goal, the economic conditions of the market in early 2023 caused us to fall short of our total venture capital funding goal and we were forced to shutter The Green Book Project as a result.
                 </p>
                 <p className="mb-6 mt-10 text-m sm:text-xl px-4">
                 Despite this, I still consider the startup to have been a smashing success in building a dedicated following and yielding countless professional lessons for myself and my former teammates.

@@ -26,8 +26,8 @@ const ChangeOrgPage = (): JSX.Element  => (
                     </div>
                 </div>
                 <p className="mt-10 text-m sm:text-xl px-4">
-                    I joined the Change.org team in the summer of 2018, as part of the organization's growth focused effort to reach net profitability by the end of Q1 of 2019. 
-                    Interally referred to as "Octoberfest," this growth effort consisted of launching a series of rapidly-built, high-impact experiments with the goal of increasing either
+                    I joined the Change.org team in the summer of 2018, as part of the organization's growth-focused effort to reach net profitability by the end of Q1 of 2019. 
+                    Internally referred to as "Octoberfest," this growth effort consisted of launching a series of rapidly-built, high-impact experiments with the goal of increasing either
                     petition creation, user engagement, and/or revenue.
                 </p>
                 <p className="mt-10 text-m sm:text-xl px-4">
@@ -58,7 +58,7 @@ const ChangeOrgPage = (): JSX.Element  => (
                 </div>
                 <div className="w-full sm:w-1/2 sm:pl-4">
                     <p className="my-6 text-m sm:text-xl px-4">
-                        The<Link className='underline text-indigo-300 hover:text-indigo-100 ml-1 duration-500' target='_blank' rel="noopener noreferrer" href="https://medium.com/making-change-org/introducing-the-campaign-success-program-46d3cc3bf445">Campaign Success program</Link> was a major productive iniative launched by Change.org in early 2020 which aimed to increase petition victories by offering
+                        The<Link className='underline text-indigo-300 hover:text-indigo-100 ml-1 duration-500' target='_blank' rel="noopener noreferrer" href="https://medium.com/making-change-org/introducing-the-campaign-success-program-46d3cc3bf445">Campaign Success program</Link> was a major productive initiative launched by Change.org in early 2020 which aimed to increase petition victories by offering
                         Change.org users real-time coaching and feedback via SMS-based conversations with Change.org staff.
                     </p>
                     <p className="mb-6 mt-10 text-m sm:text-xl px-4">
@@ -83,18 +83,18 @@ const ChangeOrgPage = (): JSX.Element  => (
                     "Reactification" of Change.org
                 </h2>
                 <p className="my-6 text-m sm:text-xl px-4">
-                    The Change.org frontend was originally built using a lesser known frontend framework called <Link className='underline text-indigo-300 hover:text-indigo-100 ml-1 duration-500' target='_blank' rel="noopener noreferrer" href="https://github.com/rendrjs/rendr">Rendr.js</Link> (an extension of Backbone.js).
+                    The Change.org frontend was originally built using a lesser-known frontend framework called <Link className='underline text-indigo-300 hover:text-indigo-100 ml-1 duration-500' target='_blank' rel="noopener noreferrer" href="https://github.com/rendrjs/rendr">Rendr.js</Link> (an extension of Backbone.js).
                 </p>
                 <p className="mb-6 mt-10 text-m sm:text-xl px-4">
-                    As the Change.org frontend scaled from hundreds of views to tens of thousands and the complexity of the platform's frontend increased in size, it became apparent that Change.org would need to adopt a new frontend framework which could better
-                    represent the complexity of its UI heirarchy and improve on-page performance for users.
+                    As the Change.org frontend scaled from hundreds of views to tens of thousands and the complexity of the platform's frontend increased in size, it became apparent that Change.org would need to adopt a new frontend framework that could better
+                    represent the complexity of its UI hierarchy and improve on-page performance for users.
                 </p>
                 <p className="mb-6 mt-10 text-m sm:text-xl px-4">
                     Because of this, the Petition Starter's engineering pod (known internally as "Comet Squad") was tasked with leading the adoption of React, starting with Change.org's most important feature surface. The "Start-A-Petition" flow.
                 </p>
                 <p className="mb-6 mt-10 text-m sm:text-xl px-4">
                     This implementation required a massive yet gradual rewrite of the SAP flow, starting with opportunistic refactors and progressing to complete feature rewrites over a 1-year period. Within 3 months of our first rewrites, the "reactification" of the SAP flow reduced the number of production
-                    bugs within Comet Squad's AO by half, and lead to a whopping 70% increase in petition completition rates by users.
+                    bugs within Comet Squad's AO by half, and led to a whopping 70% increase in petition completion rates by users.
                 </p>
             </div>
         </div>
