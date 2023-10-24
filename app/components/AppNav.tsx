@@ -67,7 +67,7 @@ const AppNav = (): JSX.Element => {
 						</Link>
 					</div>
 					<div className="block text-left text-lg text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2 border-t-2 pt-3 sm:pt-2 sm:border-t-0 border-primary-light dark:border-secondary-dark">
-						<Link href="/contact" aria-label="Contact">
+						<Link href="mailto:christglowe@gmail.com?subject=Howdy%2C%20Christian!" aria-label="Contact">
 							Contact
 						</Link>
 					</div>
@@ -97,7 +97,7 @@ const AppNav = (): JSX.Element => {
 						className="block text-left text-lg font-medium text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2"
 						aria-label="Contact"
 					>
-						<Link href="/contact">Contact</Link>
+						<Link href="mailto:christglowe@gmail.com?subject=Howdy%2C%20Christian!">Contact</Link>
 					</div>
 				</div>
 			</div>
