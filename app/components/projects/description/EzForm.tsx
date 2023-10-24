@@ -12,7 +12,7 @@ const EzForm = ({ project }: props): JSX.Element => (
     className="font-general-regular mb-5 text-lg text-ternary-dark dark:text-ternary-light"
 >
     <Image 
-        src="/images/projects/lost_title_connection.webp"
+        src="/images/projects/lost_title_connection.jpeg"
         className="rounded-xl cursor-pointer shadow-lg sm:shadow-none"
         width={750}
         height={750}

@@ -8,6 +8,7 @@ const imageStyle = { maxWidth: '100%', height: 'auto' };
 const GridTile = ({ id, img, title, category }: Project): JSX.Element => {
 	return (
 		<motion.div
+			key={id}
 			initial={{ opacity: 0 }}
 			animate={{ opacity: 1, }}
 			transition={{
