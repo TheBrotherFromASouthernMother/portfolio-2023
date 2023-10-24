@@ -16,7 +16,7 @@ const D8 = ({ project }: props): JSX.Element => (
         className="rounded-xl cursor-pointer shadow-lg sm:shadow-none"
         width={750}
         height={750}
-        alt="D8 architecture on whiteboard"
+        alt="D8 web app screenshot"
     />
     <p>
         As part of the curriculum for DigitalCrafts' full stack engineering bootcamp, students were required to complete a series of

@@ -63,7 +63,7 @@ const GreenBookPage = (): JSX.Element => (
                     After witnessing a shocking instance of caste-based discrimination targeted at the amazing young women of the Kranti House, I reflected on my own experiences with racial discrimnation in the Deep South and felt that someone should build an app for that.
                     </p>
                     <p className="mb-6 mt-10 text-m sm:text-xl px-4">
-                    The experienced galvanized me to build the Green Book Project to act as platform which could help people from marginalized groups avoid discriminatory services and instead support inclusive businesses.
+                    The experienced galvanized me to build the Green Book Project to help people from marginalized groups avoid discriminatory services and instead support inclusive businesses.
                     </p>
                 </div>
             </div>
@@ -83,7 +83,7 @@ const GreenBookPage = (): JSX.Element => (
                     As the sole founder of my startup and lacking the experience necessary to attract VC-backing, I learned to code while building The Green Book Project from scratch using technologies like React Native, GraphQL, and PostgreSQL just to name a few. 
                 </p>
                 <p className="mb-6 mt-10 text-m sm:text-xl px-4">
-                    Through user feedback and testing, I built countless iterations of the app until finally launching The Green Book Project for the first time in the Apple App Store in November of 2020. To learn more about the technical aspects of this work, check out the portfolio page here.
+                    Through user feedback and testing, I built countless iterations of the app until finally launching The Green Book Project for the first time in the Apple App Store in November of 2020. To see how it worked, check out the demo below:
                 </p>
                 <div className="w-full flex justify-center">
                     <iframe 
