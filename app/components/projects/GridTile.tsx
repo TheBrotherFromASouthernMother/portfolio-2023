@@ -16,24 +16,23 @@ const GridTile = ({ id, img, title, category }: Project): JSX.Element => {
 				duration: 0.7,
 				delay: 0.15,
 			}}
+			className='col-span-1 flex flex-col'
 		>
 			<Link
 				href="/projects/[id]"
 				as={`/projects/${id}`}
 				aria-label="Single Project"
 				passHref
+				className='flex flex-1'
 			>
-				<div className="rounded-xl shadow-lg hover:shadow-xl cursor-pointer mb-10 sm:mb-0 bg-secondary-light dark:bg-ternary-dark">
-					<div>
-						<Image
+				<div className="flex flex-1 flex-col rounded-xl shadow-lg hover:shadow-xl cursor-pointer mb-10 sm:mb-0 bg-secondary-light dark:bg-ternary-dark">
+				<Image
 							src={img}
-							className="rounded-t-xl border-none"
+							className="flex flex-1 rounded-t-xl border-none object-cover object-center"
 							alt="Single Project"
-							width={500}
-							height={500}
-							objectFit="fill"
+							width={400}
+							height={400}
 						/>
-					</div>
 					<div className="text-center px-4 py-6">
 						<p className="font-general-medium text-xl md:text-2xl text-ternary-dark dark:text-ternary-light mb-2">
 							{title}

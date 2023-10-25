@@ -1,5 +1,6 @@
 import GridTile from 'app/components/projects/GridTile';
 import projectsData from 'app/data/project_data';
+import Image from 'next/image';
 
 function ProjectsGrid(): JSX.Element {
 	return (
@@ -10,11 +11,12 @@ function ProjectsGrid(): JSX.Element {
 				</p>
 			</div>
 
-			<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-6 sm:gap-5">
-                {projectsData.map((project, index) => <GridTile {...project} />)}
+			<div className="grid grid-rows-1 sm:grid-cols-2 lg:grid-cols-3 mt-6 sm:gap-5">
+				{projectsData.map((project, index) => <GridTile {...project} />)}
 			</div>
 		</section>
 	);
 }
+
 
 export default ProjectsGrid;

@@ -10,7 +10,7 @@ const D8 = ({ project }: props): JSX.Element => (
     <div
     key={project.id}
     className="font-general-regular mb-5 text-lg text-ternary-dark dark:text-ternary-light"
->
+    >
     <Image 
         src="/images/projects/d8_screenshot.webp"
         className="rounded-xl cursor-pointer shadow-lg sm:shadow-none"
@@ -18,15 +18,15 @@ const D8 = ({ project }: props): JSX.Element => (
         height={750}
         alt="D8 web app screenshot"
     />
-    <p>
+    <p className="my-6">
         As part of the curriculum for DigitalCrafts' full stack engineering bootcamp, students were required to complete a series of
-        group projects using the knowledge we accumulated to apply our technical skills.
+        group projects in order to apply the knowledge we had learned from the coursework.
     </p>
-    <p>
+    <p className="my-6">
         For the first of our group projects, my group decided to build a date planning web-app using personality quiz results in order
         to suggest date night activities to local Houston couples.
     </p>
-    <p>
+    <p className="my-6">
         We began with whiteboards to map out initial architecture, layout, and required functionality before discussing scope limitations and tradeoffs.
         After that we got to work building.
     </p>
@@ -46,12 +46,12 @@ const D8 = ({ project }: props): JSX.Element => (
             alt="D8 architecture on whiteboard"
         />
     </div>
-    <p>
+    <p className="my-6">
         For this project our team decided to primary utilize HTML, vanilla Javascript, JQuery, Bootstrap, and to build the frontend as these were the technologies covered in the most recent module at that time.
         On the backend, we opted to challenge ourselves by learning and utilizing Java and Spark deployed to a Heroku hobby instance.
         Third party data such as location services, movie showtimes, and restaurant information was made accessible via third party APIs. 
     </p>
-    <p>
+    <p className="my-6">
         You can view this project's source code by checking out the public repo on Github <Link className='underline text-indigo-300 hover:text-indigo-100 ml-1 duration-500' target='_blank' rel="noopener noreferrer" href="https://github.com/TheBrotherFromASouthernMother/D8">here.</Link>
     </p>
 </div>
