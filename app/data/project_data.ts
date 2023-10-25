@@ -8,8 +8,8 @@ const projectsData: Project[] = [
         category: 'Push Notifications',
         img: '/images/projects/tgbp_push_notification.webp',
         publish_date: 'July 2022',
-        technologies: ['Node.js', 'Redis', 'React Native', 'Google Cloud Platform (GCP)', 'BullMQ'],
-        description: 'The Green Book Project emplyoed push notifications to drive user engagement and in-app activity',
+        technologies: ['Node.js', 'Redis', 'React Native', 'Google Cloud Platform (GCP)', 'Bull.js', 'Firebase Cloud Messaging'],
+        description: 'The Green Book Project employed push notifications to drive user engagement and in-app activity',
     },
     {
         id: 2,
