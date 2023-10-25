@@ -1,6 +1,5 @@
-import Link from 'next/link'
-import Image from 'next/image';
 import ProjectDescription from 'app/components/projects/description/ProjectDescription';
+import resolveURL from 'app/helpers/resolve_url';
 
 type PageProps = {
 	params: {
@@ -10,7 +9,7 @@ type PageProps = {
 
 async function getProjectData(projectId: string) {
 
-	const res = await fetch(`http://localhost:3000/projects/api?project_id=${projectId}`, {
+	const res = await fetch(`${resolveURL()}/projects/api?project_id=${projectId}`, {
 		next: { revalidate: 1 },
 	});
    
