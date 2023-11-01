@@ -1,6 +1,8 @@
+'use client';
 import { Project } from "app/types";
 import Link from 'next/link'
 import Image from 'next/image';
+import ReactEmbedGist from 'react-embed-gist';
 
 type props = {
     project: Project;
@@ -30,8 +32,7 @@ const PushNotifications = ({ project }: props): JSX.Element => (
          Leveraging Redis, Bull.js, Node.js, and Firebase Cloud Messaging (FCM), I created an efficient and reliable notification system. Additionally, I utilized cron job scheduling to automate and personalize notifications, making the user experience even more engaging and interactive.
     </p>
     <p className="my-6">
-        For the most part, the system followed an Event-Driven Architecture, where in a trigger event such as a "Like" was consumed by a corresponding event handler, which would
-        after processing the event validity and other business concerns would enqueue a "notification" job which when processed would send a push notification request to the corresponding API service (Expo API on iOS, FCM on Android).
+        For the most part, the system followed an Event-Driven Architecture, in which a triggering event such as a "Like" would be consumed by a corresponding event handler.  After processing and validating the event data, the handler would then fetch the relevant business data and enqueue a "notification" job. Finally, the corresponding job worker would send push notification requests to the relevant API service (Expo API on iOS, FCM on Android).
     </p>
     <p className="my-6">
         I employed Bull.js, a Redis-backed job queue library for Node.js, to manage the processing of push notifications. Bull.js allowed for easy queue management, job prioritization, and job status reporting.
@@ -39,6 +40,30 @@ const PushNotifications = ({ project }: props): JSX.Element => (
     <p>
         The implementation of the push notification system significantly improved user engagement with a massive 24% open rate, and a 13% increase to weekly review creation rates within 30 days after being deployed.  
     </p>
+
+    <p className="my-6">
+        Although all the code for the The Green Book Project is currently closed-source. You can view some of examples of the code I wrote to handle push notifications
+        on the frontend and backend by taking a look at the Gist below:
+    </p>
+
+    <p className="my-4 text-lg">
+        Backend Event Handler
+    </p>
+
+    <ReactEmbedGist 
+        gist="TheBrotherFromASouthernMother/ac373baba1852edd48b395debdfeb196" 
+        wrapperClass="bg-slate-950 h-80 overflow-scroll my-10"
+        contentClass="bg-slate-950"
+    />
+
+    <p className="my-4 text-lg">
+        Frontend (React Hook)
+    </p>
+    <ReactEmbedGist 
+    gist="TheBrotherFromASouthernMother/b1bb1dce3826837a210d940046db9ad7" 
+    wrapperClass="bg-slate-950 h-80 overflow-scroll my-10"
+    contentClass="bg-slate-950"
+    />
 </div>
 );
 

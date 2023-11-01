@@ -3,6 +3,7 @@ import D8 from 'app/components/projects/description/D8'
 import Biddr from "app/components/projects/description/Biddr";
 import EzForm from "app/components/projects/description/EzForm";
 import PushNotifications from "app/components/projects/description/PushNotifications";
+import Newsfeed from "app/components/projects/description/Newsfeed";
 
 type props = {
     project: Project;
@@ -12,6 +13,10 @@ const ProjectDescription = ({ project }: props): JSX.Element => {
 
     if (project.key === 'gb_push_notifications') {
         return <PushNotifications project={project} />
+    }
+
+    if (project.key === 'gb_newsfeed') {
+        return <Newsfeed project={project} />
     }
 
     if (project.key === 'd8') {

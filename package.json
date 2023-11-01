@@ -9,10 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@types/react-embed-gist": "^1.0.3",
     "framer-motion": "^10.16.4",
     "next": "latest",
     "react": "latest",
     "react-dom": "latest",
+    "react-embed-gist": "^1.0.17",
     "react-icons": "^4.11.0"
   },
   "devDependencies": {

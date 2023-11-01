@@ -14,11 +14,11 @@ const projectsData: Project[] = [
     {
         id: 2,
         title: 'Newsfeed (Green Book Project)',
-        key: 'gb_push_notifications',
+        key: 'gb_newsfeed',
         category: 'Mobile App Feature',
         img: '/images/projects/ph_newsfeed_demo.webp',
         publish_date: 'April 2022',
-        technologies: ['React Native', 'Apollo GraphQL', 'Node.js', 'Express', 'PostgreSQL'],
+        technologies: ['Figma', 'React Native', 'Apollo GraphQL', 'Node.js', 'Express', 'PostgreSQL'],
         description: "The Community Newsfeed allowed users of The Green Book Project to centrally share and view each other's content via chronographically sorted newsfeed",
     },
     {
